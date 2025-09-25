@@ -1,0 +1,34 @@
+Git_Day 01
+
+Link to download the Git:
+https://git-scm.com/downloads
+
+Installation of Git on VMs
+Amazon Linux: 
+	yum install git -y
+	git --version
+
+Ubuntu AMI:
+	apt install git -y
+	git --version
+
+As soon as we download and install git in the local system, we will get a default git terminal which is known as GIT BASH Terminal
+
+Open Git Bash terminal to work with git commands
+
+Configuring credentials in git;
+git config --global user.name "<UserName>"
+git config --global user.email "<UserEmail>"
+
+To verify;
+git config user.name ----> This will return the username configured
+git config user.email ----> This will return the email id configured
+
+git config --list ----> This will return both username and email id configured
+
+The above is a one time activity
+
+All git commands starts with “git”
+
+Shell Scripting Lectures:
+https://youtube.com/playlist?list=PLs-PsDpuAuTeT2iRQpNs0sl-sXFD10I1C&si=dL8ge67Wu-q83YZw
