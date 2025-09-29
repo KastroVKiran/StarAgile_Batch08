@@ -1,0 +1,63 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Git & GitHub_Session 1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Git Introduction
+1. What is Git?
+Git is a distributed version control system (VCS) that helps developers track changes in their code, collaborate with teams, and manage project history efficiently.
+It was created by Linus Torvalds in 2005 to manage the Linux kernel development.
+Unlike storing multiple copies of files manually, Git manages changes in a structured way, making teamwork and version management easier.
+
+Why do we need Git?
+To track changes in source code.
+To collaborate with multiple developers on the same project.
+To maintain different versions of a project.
+To revert to older versions in case of issues.
+To work offline and sync later.
+
+2. Version Control System (VCS)
+Definition:
+A Version Control System is a tool that manages changes to source code or files over time. It keeps track of who changed what, when, and why.
+
+Types of VCS:
+Local VCS – All versions are stored locally on your system. Example: RCS.
+Centralized VCS – Versions are stored in a central server, developers pull and push code from it. Example: CVS, Subversion (SVN).
+Distributed VCS – Each developer has a full copy of the repository, making it faster and allowing offline work. Example: Git, Mercurial.
+
+3. Introduction to GitHub
+GitHub is a cloud-based hosting platform for Git repositories.
+It provides a space for collaboration, code sharing, and project management.
+Popular because of features like pull requests, issues, actions (CI/CD), and community contributions.
+Alternatives: GitLab, Bitbucket.
+
+4. Ways of Working with Git
+Command Line Interface (CLI): Using Git commands in terminal (preferred by developers for flexibility).
+Graphical User Interface (GUI): Tools like GitHub Desktop, SourceTree.
+IDE Integration: Most IDEs like VS Code, IntelliJ, Eclipse have built-in Git support.
+
+5. Git Configuration Levels
+Git configurations can be set at different levels:
+System Level (--system) – Applies to all users on the system.
+Global Level (--global) – Applies to a specific user across all repositories.
+Local Level (--local) – Applies to a specific repository only.
+
+6. Configuring User Credentials
+Before using Git, configure your username and email:
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+
+This helps Git track who made changes.
+You can also configure credentials per repository using --local.
+
+7. Stages in Git
+Git tracks files in three main stages:
+Working Directory: Where you make changes to files.
+Staging Area (Index): Files are marked to be included in the next commit using git add.
+Repository (.git directory): Committed changes are stored permanently.
+
+8. Git Workflow
+The typical Git workflow looks like this:
+Modify files in the Working Directory.
+Stage the changes using git add.
+Commit the staged changes with git commit.
+Push the commits to a remote repository like GitHub using git push.
+Pull updates from the remote repository using git pull to stay in sync.
