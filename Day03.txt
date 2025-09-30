@@ -1,0 +1,39 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Git & GitHub_Session 3
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+GitHub - it is a remote repo which is used to store the code/files...
+Create an account using www.github.com
+
+GitHub consists of repositories
+
+Types of Repo's;
+	1. Public Repo	- anyone can access the data inside it
+	2. Private Repo	- the data inside it cannot be accessed by everyone, until permissions are provided
+
+Push the code from local to remote repo
+
+2. Get the code from remote repo to local repo
+
+Note: If we do git clone it will get the complete repo
+
+3. GIT PULL
+git pull will pull only the changes made in the remote repo.
+
+4. BRANCHES
+
+Note: When you are switching from existing branch to the newly created branch, by default whatever files that are available in the existing branch all those files will automatically gets copied to the newly created branch.
+
+
+5. .gitignore
+
+
+
+
+
+
+
+
+
+
+
+
