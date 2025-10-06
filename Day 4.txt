@@ -1,0 +1,58 @@
+Day 4
+~~~~~~~~
+MERGE CONFLICT;
+
+one file, two branches, two developers
+
+Dev1	----> Branch 1		----> "code.txt"	----> JAVA Code
+Dev2	----> Branch 2		----> "code.txt"	----> PYTHON Code
+When we merge ---> conflict occurs because both developers changed the same file
+
+FORKING A REPO;
+git clone		----> will download the entire code from the remote repo to local repo
+git pull		----> it will pull ONLY the changes made in the remote repo
+
+CREATING A GITHUB PROFILE
+
+GIT STASH
+
+11.00 AM	----> TL ----> Do this work (Create a file with name called demo.py, and write some python code, and add it and commit it)
+										STILL GOING ON
+
+11.30 AM	----> TL ----> Don't do the previous work (11.00 AM), we have one immediate work (create a file, add and commit) which should be completed
+
+You shouldn't push the partially completed work
+
+git stash is used to store the partially completed work in a temporary location
+
+Note: To apply git stash, atleast one commit should be made
+
+CHERRY PICK
+
+Pending Topics;
+rebase
+reset
+collaborators
+git restore
+git fetch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
