@@ -1,0 +1,19 @@
+Day 5
+~~~~~~~~
+Merging the branches in GitHub repo;
+	- PULL REQUEST
+
+JENKINS
+	Code	----> Repo	----> DevOps Engineer
+								----> Deploy the code in servers
+
+CI & CD ----> Continuous Integration and Continuous Delivery/Deployment
+
+COLLABORATORS IN GIT
+
+GIT RESTORE
+
+GIT FETCH
+git fetch is a command that downloads commits, files, and references from a remote repo into your local repo without modifying your working directory
+
+Shell Scripting Repo Link: https://github.com/KastroVKiran/ShellScriptingforDevOpsEngineering.git
